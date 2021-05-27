@@ -4,4 +4,4 @@ It also uses bootstrap, and bootstrap's datatables for styling.
 It includes some javascript's libraries.
 This is intended to work with a mySQL database.
 
-Ejercicio de programación en PHP para una enrevista de trabajo
+Ejercicio de programación en PHP para una entrevista de trabajo
