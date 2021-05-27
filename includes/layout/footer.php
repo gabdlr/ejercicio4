@@ -10,5 +10,7 @@
 <script src="js/sweetalert2.all.min.js"></script>
 <!-- AJAXController -->
 <script src="js/ajax-controller.js"></script>
+<!--App-->
+<script src="js/app.js"></script>
 </body>
 </html>

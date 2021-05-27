@@ -11,7 +11,7 @@
             <div class="form-group">
                 <label for="sexo_usuario">Sexo:</label>
                 <select name="sexo_usuario" class="form-control seleccionar">
-                <option value="0">- Seleccione -</option>
+                <option value="0" disabled selected>- Seleccione -</option>
                 
                 <option value="M" <?php echo isset($usuario["SEXO"]) && $usuario["SEXO"] == "M" ?  "selected" :  "";?>>Mujer</option>
                 <option value="H" <?php echo isset($usuario["SEXO"]) && $usuario["SEXO"] == "H" ?  "selected" :  "";?>>Hombre</option>
@@ -20,7 +20,7 @@
             <div class="form-group">
                 <label for="rol_usuario">Categoria:</label>
                 <select name="rol_usuario" class="form-control seleccionar">
-                <option value="0">- Seleccione -</option>
+                <option value="0" disabled selected>- Seleccione -</option>
                 <?php 
                    try {
                      $sql = "SELECT * FROM roles";

@@ -1,5 +1,4 @@
 <?php
-//header('Location: /');
 include_once 'includes/bd.php';
 
 $sql = " SELECT COUNT(*) FROM usuarios WHERE SEXO = 'M' ";
