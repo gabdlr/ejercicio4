@@ -1,10 +1,10 @@
 <?php
 include_once 'includes/bd.php';
 
+$arreglo_resultados = array();
 $sql = " SELECT COUNT(*) FROM usuarios WHERE SEXO = 'M' ";
 $resultado = $conn->query($sql);
 $resultado = $resultado->fetch_assoc();
-$arreglo_resultados = array();
 $arreglo_resultados['M'] = $resultado['COUNT(*)'];
 
 
