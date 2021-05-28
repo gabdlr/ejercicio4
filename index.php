@@ -26,7 +26,6 @@
                 <?php
                  try {
                     $sql = "SELECT * ";
-
                     $sql .= " FROM usuarios ";
                     $sql .= " INNER JOIN roles ";
                     $sql .=  " ON usuarios.ROLID = roles.ROLID ";
